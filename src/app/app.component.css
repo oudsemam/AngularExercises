@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+app-pet-info {
+    margin: 20px;
+}
+
+app-exercise-two {
+    margin: 20px;
+}
+
+div {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+app-name {
+    margin: 20px;
+}
