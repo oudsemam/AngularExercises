@@ -1,0 +1,9 @@
+<p>exercise-two works!</p>
+
+<input [(ngModel)]='appInput' type = 'number' placeholder = '0' ><label>Width</label>
+
+<input [checked]='isChecked' type = 'checkbox' (change)='isChecked = !isChecked'><label>Make into a circle?</label>
+
+<input [checked]='!isShown' type = 'checkbox' (change)="isShown = !isShown"><label>Hide?</label>
+
+<div *ngIf = "isShown" [ngClass]="{'circle':isChecked}" class= 'color' [style.width.px]='[appInput]' [style.height.px] = '[appInput]'></div>

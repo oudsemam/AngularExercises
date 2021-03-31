@@ -1,0 +1,5 @@
+<p *ngFor='let name of names'>{{name}}</p>
+
+<p *ngFor = "let name of names; let i = index">position {{i}} - {{name}}</p>
+
+<p *ngFor = "let person of people; trackBy: trackByPeople">{{person.lastName}} {{person.firstName}}</p>

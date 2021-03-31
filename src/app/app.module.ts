@@ -7,6 +7,10 @@ import { ExerciseTwoComponent } from './exercise-two/exercise-two.component';
 import { FormsModule } from '@angular/forms';
 import { UpDownCounterComponent } from './up-down-counter/up-down-counter.component';
 import { NameComponent } from './name/name.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
+import { PostComponent } from './post/post.component';
+import { CommentComponent } from './comment/comment.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { NameComponent } from './name/name.component';
     PetInfoComponent,
     ExerciseTwoComponent,
     UpDownCounterComponent,
-    NameComponent
+    NameComponent,
+    ParentComponent,
+    ChildComponent,
+    PostComponent,
+    CommentComponent
   ],
   imports: [
     BrowserModule,

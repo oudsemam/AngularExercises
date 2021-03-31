@@ -1,0 +1,13 @@
+.circle {
+    border-radius: 100%;
+}
+
+.color {
+    background-color:olivedrab;
+    width: 0;
+    height: 0;
+}
+
+div {
+    margin: 20px;
+}
